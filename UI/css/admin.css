@@ -1,0 +1,148 @@
+
+.my-col-1 {
+    width: 8.33%;
+}
+
+.my-col-2 {
+    width: 16.66%;
+}
+
+.my-col-3 {
+    width: 25%;
+}
+
+.my-col-4 {
+    width: 33.33%;
+    height: 200px;
+}
+
+.my-col-5 {
+    width: 41.66%;
+}
+
+.my-col-6 {
+    width: 50%;
+}
+
+.my-col-7 {
+    width: 58.33%;
+}
+
+.my-col-8 {
+    width: 66.66%;
+}
+
+.my-col-9 {
+    width: 75%;
+}
+
+.my-col-10 {
+    width: 83.33%;
+}
+
+.my-col-11 {
+    width: 91.66%;
+}
+
+.my-col-12 {
+    width: 100%;
+}
+
+.container2 {
+	background-color: #f4f4f4;
+	width: 60%;
+	margin: 5% 0 0 20%;
+	overflow: hidden;
+	padding: 30px;
+}
+
+.container4 {
+    /*background-color: #f4f4f4;*/
+    width: 60%;
+    margin: 10px 0 0 20%;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.myrow {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    /*-webkit-justify-content: space-between;*/
+    /*justify-content: space-between;*/
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /*padding-top: 1em;*/
+}
+
+.myrow2 {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 3em;
+}
+
+.card-2 {
+	
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    min-width: 70%;
+    margin-left: 20px;
+}
+
+.card-3 {
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    */
+}
+
+.card-3 h3, p{
+    text-align: center;
+}
+
+.container3 {
+	background-color: #f4f4f4;
+}
+
+
+
+.card0 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+  
+  text-align: center;
+  font-family: arial;
+}
+
+.title2 {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #e8491d;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+

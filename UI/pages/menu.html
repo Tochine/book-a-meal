@@ -11,7 +11,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/admin.css"> 
+		<link rel="stylesheet" type="text/css" href="../css/menu.css"> 
 	</header>
 
 	<body class="body">
@@ -31,6 +31,7 @@
 				</nav>
 			</div>
 		</header>
+		
 		<div class="myrow">
 			<div class="card0">
 				<img src="../images/foodimages/chef2.jpg" alt="John" style="width:70%">
@@ -41,59 +42,70 @@
 				
 				<hr>
 
+				<button class="myBtn-2"><a href="../pages/admin.html"><i class="fa fa-menu" style="font-size: 20px;"> Admin</i></a></button>
+
 				<button class="myBtn-2"><a href="../pages/menu.html"><i class="fa fa-menu" style="font-size: 20px;"> Menu</i></a></button>
 
 				<button class="myBtn-2"><a href="../pages/list.html"><i class="fa fa-menu" style="font-size: 20px;"> Summary</i></a></button>
 
 				<button class="myBtn-2"><a href="../pages/list.html"><i class="fa fa-menu" style="font-size: 20px;"> Meal Setup</i></a></button>
 			</div>
-			<div class="card-2">
-			
-				<h1 align="centre" style="color: #e8491d; font-size: 30px; margin-left: 40%;">Today's Menu</h1>
 
-				<div class="myrow2">
-					<div class="card-3">
-						<img src="../images/foodimages/meal15.jpg"><br>
-						<h3>Rice & Chicken</h3>
-						<p>&#8358;2000</p>
-					</div>
-
-					<div class="card-3">
-						<img src="../images/foodimages/bev4.jpg"><br>
-						<h3>Beverages</h3>
-						<p>&#8358;1000</p>
-					</div>
-
-					<div class="card-3">
-						<img src="../images/foodimages/meal2.jpg"><br>
-						<h3>Egusi Soup $ Semo</h3>
-						<p>&#8358;4000</p>
-					</div>
+			<div class="container2">
+				<div class="card-3">
+					<span>Select Date </span>
+					<input type="date" name="">
 				</div>
 
-				<div class="myrow2">
-					<div class="card-3">
-						<img src="../images/foodimages/meal15.jpg"><br>
-						<h3>Rice & Chicken</h3>
-						<p>&#8358;2000</p>
-					</div>
+				<table class="mytable">
+					<thead>
+						<tr>
+							<th></th>
+							<th>ID</th>
+							<th>Food</th>
+							<th>Description</th>
+							<th>Amount</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="checkbox" name=""></td>
+							<td>BM001</td>
+							<td>Rice & Chicken</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+							<td>&#8358;2000</td>
+						</tr>
 
-					<div class="card-3">
-						<img src="../images/foodimages/bev4.jpg"><br>
-						<h3>Beverages</h3>
-						<p>&#8358;1000</p>
-					</div>
+						<tr>
+							<td><input type="checkbox" name=""></td>
+							<td>BM001</td>
+							<td>Rice & Chicken</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+							<td>&#8358;2000</td>
+						</tr>
 
-					<div class="card-3">
-						<img src="../images/foodimages/meal2.jpg"><br>
-						<h3>Egusi Soup $ Semo</h3>
-						<p>&#8358;4000</p>
-					</div>
+						<tr>
+							<td><input type="checkbox" name=""></td>
+							<td>BM001</td>
+							<td>Rice & Chicken</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+							<td>&#8358;2000</td>
+						</tr>
+
+						<tr>
+							<td><input type="checkbox" name=""></td>
+							<td>BM001</td>
+							<td>Rice & Chicken</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+							<td>&#8358;2000</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<div class="card-2">
+					<button><a href="../pages/admin.html">Submit</a></button>
 				</div>
 			</div>
-		</div>
-
-			
 		</div>
 			  
 		<footer>
@@ -110,6 +122,7 @@
 					</ul>
 			</nav>
 		</footer>
+
 
 
 		<!-- <script type="text/javascript" src="../js/modal.js"></script> -->

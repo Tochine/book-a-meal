@@ -11,7 +11,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/mealsetup.css"> 
+		<link rel="stylesheet" type="text/css" href="../css/summary.css"> 
 	</header>
 
 	<body class="body">
@@ -31,7 +31,6 @@
 				</nav>
 			</div>
 		</header>
-		
 		<div class="myrow">
 			<div class="card0">
 				<img src="../images/foodimages/chef2.jpg" alt="John" style="width:70%">
@@ -46,63 +45,76 @@
 
 				<button class="myBtn-2"><a href="../pages/menu.html"><i class="fa fa-menu" style="font-size: 20px;"> Menu</i></a></button>
 
-				<button class="myBtn-2"><a href="../pages/summary.html"><i class="fa fa-menu" style="font-size: 20px;"> Summary</i></a></button>
+				<button class="myBtn-2"><a href="../pages/list.html"><i class="fa fa-menu" style="font-size: 20px;"> Summary</i></a></button>
 
 				<button class="myBtn-2"><a href="../pages/mealsetup.html"><i class="fa fa-menu" style="font-size: 20px;"> Meal Setup</i></a></button>
 			</div>
 
-			<div class="container2">
-				<div class="card-3">
-					<button><i class="fa fa-plus"> Add Meal</i></button>
+			<div class="card-2">
+				<h1 align="centre" style="color: #e8491d; font-size: 30px; margin-left: 60%;">Order History</h1>
+
+				<div class="container2">
+					
+					<table class="mytable">
+						<thead>
+							<tr>
+								<th>Date</th>
+								<th>ID</th>
+								<th>Food</th>
+								<th>Quantity</th>
+								<th>Customer</th>
+								<th>Amount</th>
+								<th>Contact</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>04/09/18</td>
+								<td>BM009</td>
+								<td>Rice & Chicken</td>
+								<td>1</td>
+								<td>Lorem Ipsum</td>
+								<td>&#8358;2000</td>
+								<td>0980555876</td>
+							</tr>
+
+							<tr>
+								<td>04/09/18</td>
+								<td>BM009</td>
+								<td>Rice & Chicken</td>
+								<td>1</td>
+								<td>Lorem Ipsum</td>
+								<td>&#8358;2000</td>
+								<td>0980555876</td>
+							</tr>
+
+							<tr>
+								<td>04/09/18</td>
+								<td>BM009</td>
+								<td>Rice & Chicken</td>
+								<td>2</td>
+								<td>Lorem Ipsum</td>
+								<td>&#8358;2000</td>
+								<td>0980555876</td>
+							</tr>
+
+							<tr>
+								<td>04/09/18</td>
+								<td>BM009</td>
+								<td>Rice & Chicken</td>
+								<td>1</td>
+								<td>Lorem Ipsum</td>
+								<td>&#8358;2000</td>
+								<td>0980555876</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
-
-				<table class="mytable">
-					<thead>
-						<tr>
-							<th>ID</th>
-							<th>name</th>
-							<th>Description</th>
-							<th>Amount</th>
-							<th>Action</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>BM001</td>
-							<td>Rice & Chicken</td>
-							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
-							<td>&#8358;2000</td>
-							<td>
-								<button>Edit</button>
-								<button>Delete</button>
-							</td>
-
-							<tr>
-							<td>BM001</td>
-							<td>Rice & Chicken</td>
-							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
-							<td>&#8358;2000</td>
-							<td>
-								<button>Edit</button>
-								<button>Delete</button>
-							</td>
-
-							<tr>
-							<td>BM001</td>
-							<td>Rice & Chicken</td>
-							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
-							<td>&#8358;2000</td>
-							<td>
-								<button>Edit</button>
-								<button>Delete</button>
-							</td>
-						</tr>
-					</tbody>
-				</table>
 			</div>
+			
+		</div>
 
-				
-			</div>
+			
 		</div>
 			  
 		<footer>
@@ -119,7 +131,6 @@
 					</ul>
 			</nav>
 		</footer>
-
 
 
 		<!-- <script type="text/javascript" src="../js/modal.js"></script> -->

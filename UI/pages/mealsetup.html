@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<header>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="TF Adams">
+
+		<title>book-A-meal || Admin</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/mealsetup.css"> 
+	</header>
+
+	<body class="body">
+		<header>
+			<div class="container">
+				<div id="appName">
+					<h2 style="font-family: Gamja Flower; font-size: 30px;">book-<span style="color: red; font-size: 35px;">A</span>-meal</h2>
+				</div>
+				<nav>
+					<ul>
+						
+						<li><a href="../pages/index.html">Home</a></li>
+						<li><a href="#"><i class="fa fa-bell"></i></a></li>
+						<!-- <li><a href="../pages/signin.html">Sign In</a></li> -->
+						
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<div class="myrow">
+			<div class="card0">
+				<img src="../images/foodimages/chef2.jpg" alt="John" style="width:70%">
+				<h1>Tochukwu Adams</h1>
+				<p>Chief Chef</p>
+				<p>tochukwuadams@makeameal.com</p>
+				<button><a href="../pages/index.html" style="color: #fff;">Logout</a></button>
+				
+				<hr>
+
+				<button class="myBtn-2"><a href="../pages/admin.html"><i class="fa fa-menu" style="font-size: 20px;"> Admin</i></a></button>
+
+				<button class="myBtn-2"><a href="../pages/menu.html"><i class="fa fa-menu" style="font-size: 20px;"> Menu</i></a></button>
+
+				<button class="myBtn-2"><a href="../pages/summary.html"><i class="fa fa-menu" style="font-size: 20px;"> Summary</i></a></button>
+
+				<button class="myBtn-2"><a href="../pages/mealsetup.html"><i class="fa fa-menu" style="font-size: 20px;"> Meal Setup</i></a></button>
+			</div>
+
+			<div class="container2">
+				<div class="card-3">
+					<button class="triggermodal"><i class="fa fa-plus"> Add Meal</i></button>
+				</div>
+
+				<table class="mytable">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>name</th>
+							<th>Description</th>
+							<th>Amount</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>BM001</td>
+							<td>Rice & Chicken</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+							<td>&#8358;2000</td>
+							<td>
+								<button class="triggermodaledit">Edit</button>
+								<button class="triggermodaldelete">Delete</button>
+							</td>
+
+							<tr>
+							<td>BM001</td>
+							<td>Rice & Chicken</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+							<td>&#8358;2000</td>
+							<td>
+								<button>Edit</button>
+								<button>Delete</button>
+							</td>
+
+							<tr>
+							<td>BM001</td>
+							<td>Rice & Chicken</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+							<td>&#8358;2000</td>
+							<td>
+								<button>Edit</button>
+								<button>Delete</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+				
+			</div>
+		</div>
+
+		<div class="mymodal">
+	        <div class="mymodal-content">
+	            <span class="close-button">&times;</span>
+	            <h1>Add Meal</h1>
+
+	            <hr>
+
+	            <div class="card-2">
+            		<label for=""><b>Name</b></label>
+			    	<input type="text" placeholder="Name of Food" name="firstname" required>
+
+			    	<label for=""><b>Price</b></label>
+			    	<input type="text" placeholder="Price of food" name="firstname" required>
+
+			    	<label for=""><b>Quantity</b></label>
+			    	<input type="text" placeholder="Quantity of food" name="firstname" required>
+
+			    	<label for=""><b>Image</b></label>
+			    	<input type="file" placeholder="Upload food image" name="firstname" required>
+
+			    	<label for=""><b>Description</b></label><br><br>
+			    	<textarea type="text" placeholder="" name="firstname" required cols="40"></textarea>
+	            </div>
+
+	            <div class="card-3">
+					<button>Save</button>
+				</div>
+	        </div>
+    	</div>
+
+    	<div class="mymodaledit">
+	        <div class="mymodal-content-edit">
+	            <span class="close-button-edit">&times;</span>
+	            <h1>Edit Meal</h1>
+
+	            <hr>
+
+	            <div class="card-2">
+            		<label for=""><b>Name</b></label>
+			    	<input type="text" placeholder="Fried Rice" name="firstname" required>
+
+			    	<label for=""><b>Price</b></label>
+			    	<input type="text" placeholder="&#8358;2000" name="firstname" required>
+
+			    	<label for=""><b>Quantity</b></label>
+			    	<input type="text" placeholder="2" name="firstname" required>
+
+			    	<label for=""><b>Image</b></label>
+			    	<input type="file" placeholder="" name="firstname" required>
+
+			    	<label for=""><b>Description</b></label><br><br>
+			    	<textarea type="text" placeholder="" name="firstname" required cols="40"></textarea>
+	            </div>
+
+	            <div class="card-3">
+					<button>Update</button>
+				</div>
+	        </div>
+    	</div>
+
+    	<div class="mymodaldelete">
+	        <div class="mymodal-content-delete">
+	            <span class="close-button-delete">&times;</span>
+	            <h1>Delete Meal</h1>
+
+	            <hr>
+
+	            <div class="card-2">
+            		<label for=""><b>Name</b></label>
+			    	<label>Fried Rice</label>
+
+			    	<label for=""><b>Price</b></label>
+			    	<label>&#8358;2000</label>
+
+			    	<label for=""><b>Quantity</b></label>
+			    	<label>2</label>
+
+			    	<label for=""><b>Image</b></label>
+			    	<label></label>
+
+			    	<label for=""><b>Description</b></label><br><br>
+			    	<label>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</label>
+	            </div>
+
+	            <div class="card-3">
+					<button>Delete</button>
+				</div>
+	        </div>
+    	</div>
+			  
+		<footer>
+			<p>book-A-meal Copyright &copy; 2018</p>
+
+			<nav>
+				<ul>
+						
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href=""><i class="fa fa-twitter"></i></a></li>
+						<li><a href=""><i class="fa fa-instagram"></i></a></li>
+						<li><a href=""></a></li>
+						
+				</ul>
+			</nav>
+		</footer>
+
+		<script type="text/javascript" src="../js/modal/modaladd.js"></script>
+		<script type="text/javascript" src="../js/modal/modaledit.js"></script>
+		<script type="text/javascript" src="../js/modal/modaldelete.js"></script>
+
+	</body>
+</html>
+
+

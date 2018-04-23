@@ -53,7 +53,7 @@
 
 			<div class="container2">
 				<div class="card-3">
-					<button><i class="fa fa-plus"> Add Meal</i></button>
+					<button class="triggermodal"><i class="fa fa-plus"> Add Meal</i></button>
 				</div>
 
 				<table class="mytable">
@@ -73,8 +73,8 @@
 							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
 							<td>&#8358;2000</td>
 							<td>
-								<button>Edit</button>
-								<button>Delete</button>
+								<button class="triggermodaledit">Edit</button>
+								<button class="triggermodaldelete">Delete</button>
 							</td>
 
 							<tr>
@@ -104,6 +104,96 @@
 				
 			</div>
 		</div>
+
+		<div class="mymodal">
+	        <div class="mymodal-content">
+	            <span class="close-button">&times;</span>
+	            <h1>Add Meal</h1>
+
+	            <hr>
+
+	            <div class="card-2">
+            		<label for=""><b>Name</b></label>
+			    	<input type="text" placeholder="Name of Food" name="firstname" required>
+
+			    	<label for=""><b>Price</b></label>
+			    	<input type="text" placeholder="Price of food" name="firstname" required>
+
+			    	<label for=""><b>Quantity</b></label>
+			    	<input type="text" placeholder="Quantity of food" name="firstname" required>
+
+			    	<label for=""><b>Image</b></label>
+			    	<input type="file" placeholder="Upload food image" name="firstname" required>
+
+			    	<label for=""><b>Description</b></label><br><br>
+			    	<textarea type="text" placeholder="" name="firstname" required cols="40"></textarea>
+	            </div>
+
+	            <div class="card-3">
+					<button>Save</button>
+				</div>
+	        </div>
+    	</div>
+
+    	<div class="mymodaledit">
+	        <div class="mymodal-content-edit">
+	            <span class="close-button-edit">&times;</span>
+	            <h1>Edit Meal</h1>
+
+	            <hr>
+
+	            <div class="card-2">
+            		<label for=""><b>Name</b></label>
+			    	<input type="text" placeholder="Fried Rice" name="firstname" required>
+
+			    	<label for=""><b>Price</b></label>
+			    	<input type="text" placeholder="&#8358;2000" name="firstname" required>
+
+			    	<label for=""><b>Quantity</b></label>
+			    	<input type="text" placeholder="2" name="firstname" required>
+
+			    	<label for=""><b>Image</b></label>
+			    	<input type="file" placeholder="" name="firstname" required>
+
+			    	<label for=""><b>Description</b></label><br><br>
+			    	<textarea type="text" placeholder="" name="firstname" required cols="40"></textarea>
+	            </div>
+
+	            <div class="card-3">
+					<button>Update</button>
+				</div>
+	        </div>
+    	</div>
+
+    	<div class="mymodaldelete">
+	        <div class="mymodal-content-delete">
+	            <span class="close-button-delete">&times;</span>
+	            <h1>Delete Meal</h1>
+
+	            <hr>
+
+	            <div class="card-2">
+            		<label for=""><b>Name</b></label>
+			    	<label>Fried Rice</label>
+
+			    	<label for=""><b>Price</b></label>
+			    	<label>&#8358;2000</label>
+
+			    	<label for=""><b>Quantity</b></label>
+			    	<label>2</label>
+
+			    	<label for=""><b>Image</b></label>
+			    	<label></label>
+
+			    	<label for=""><b>Description</b></label><br><br>
+			    	<label>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</label>
+	            </div>
+
+	            <div class="card-3">
+					<button>Delete</button>
+				</div>
+	        </div>
+    	</div>
 			  
 		<footer>
 			<p>book-A-meal Copyright &copy; 2018</p>
@@ -116,13 +206,14 @@
 						<li><a href=""><i class="fa fa-instagram"></i></a></li>
 						<li><a href=""></a></li>
 						
-					</ul>
+				</ul>
 			</nav>
 		</footer>
 
+		<script type="text/javascript" src="../js/modal/modaladd.js"></script>
+		<script type="text/javascript" src="../js/modal/modaledit.js"></script>
+		<script type="text/javascript" src="../js/modal/modaldelete.js"></script>
 
-
-		<!-- <script type="text/javascript" src="../js/modal.js"></script> -->
 	</body>
 </html>
 

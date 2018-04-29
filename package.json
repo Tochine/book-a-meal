@@ -1,0 +1,42 @@
+{
+  "name": "book-a-meal",
+  "version": "1.0.0",
+  "description": "Book-A-Meal is an application that allows customers to make food orders and helps the food vendor know what the customers want to eat.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch server --exec babel-node app.js",
+    "test": "node_modules/.bin/mocha server/tests --exit --recursive --require babel-core/register --require regenerator-runtime/runtime"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "express": "^4.16.3",
+    "standard": "^11.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tochine/book-a-meal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tochine/book-a-meal/issues"
+  },
+  "homepage": "https://github.com/Tochine/book-a-meal#readme"
+}

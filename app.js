@@ -1,3 +1,4 @@
+
 //initializing express
 import express from 'express';
 //initializing bodyparser for extraction of request
@@ -18,12 +19,14 @@ router.use((req, res, next) => {
 	next();
 });
 
+
 //declaring my route path
 require('./server/route')(router);
 
 // app.use(router);
 app.use('/api/v1', router);
 //listen to the port
+
 app.listen(port, () => {
 	console.log(`Connect to port ${port}`);
 });

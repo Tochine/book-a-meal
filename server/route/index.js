@@ -9,7 +9,6 @@ module.exports = (app) => {
 	}));
 
 
-
 	app.get('/meals', mealController.getMeal);
 	app.post('/meals', mealController.createMeal);
 	app.put('/meals/:mealId', mealController.updateMeal);

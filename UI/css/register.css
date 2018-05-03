@@ -1,54 +1,46 @@
 
 
-.container2 {
-	background-color: #f4f4f4;
-	width: 40%;
-	margin: 5% 0 10% 30%;
-	overflow: hidden;
-	padding: 30px;
+.form-wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+
 }
 
-.container2 h1{
-	padding: 10px;
-	font-size: 40px;
-	text-align: center;
+.form-container {
+  background-color: #f4f4f4;
+  width: 35%;
+  padding: 20px;
+  margin: 40px 0 30px 0;
 }
 
-input[type=text], input[type=password] {
-    width: 100%;
+.form-container h1{
+  text-align: center; 
+}
+
+input {
+    width: 90%;
     padding: 15px;
     margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
+    border-radius: 1em;
     background: #f1f1f1;
 }
 
-/* Add a background color when the inputs get focus */
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-
 button {
-    
-    
+    background-color: #4CAF50;
+    color: white;
     padding: 14px 20px;
-    margin: 0 0 0 20px;
+    margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 70%;
+    width: 100%;
     opacity: 0.9;
-
-
 }
 
-button:hover {
-    opacity:1;
-}
-
-.register-footer {
-    background: transparent;
-    padding: 10px;
-    height: 60px;
-    color: #fff;
+button a{
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
 }

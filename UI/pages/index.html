@@ -1,49 +1,41 @@
 <!DOCTYPE html>
 
-<html lang="en">
-	<header>
-		<meta charset="utf-8">
+<html>
+  <head>
+    <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="TF Adams">
-
 		<title>book-A-meal || Welcome Page</title>
-
 		<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/modal.css"> 
-	</header>
-
-	<body class="body">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+  </head>
+<body>
+	<div class="wrapper">
 		<header>
-			<div class="container">
-				<div id="appName">
+			 	<div id="appName">
 					<h2 style="font-family: Gamja Flower; font-size: 30px;">book-<span style="color: red; font-size: 35px;">A</span>-meal</h2>
 				</div>
 				<nav>
 					<ul>
-						
-						<li><a href="#">Home</a></li>
+					  <li><a href="../pages/signin.html">Sign In</a></li>
 						<li><a href="../pages/register.html">Register</a></li>
-						<li><a href="../pages/signin.html">Sign In</a></li>
-						
+						<li><a href="../pages/foodmenu.html">Menu</a></li>	
+						<li><a href="#">Home</a></li>
 					</ul>
 				</nav>
-			</div>
 		</header>
 		<section id="showcase">
-			<!-- <img src="./foodimages/meal14.jpg" style="width: 100%; height: 450px;"> -->
 			<div class="container">
 				<h1>A Taste Of Good Life</h1>
 				<p></p>
 			</div>
 		</section>
-		<section>
-			<h1 align="center" style="color: #e8491d; font-size: 30px;">Popular Dishes</h1>
+		<section class="dish-container">
+			<h1>Popular Dishes</h1>
 		</section>
-		<section id="boxes">
-			<div class="container">
-				<div class="box">
+		<section class="menu-container">
+			 	<div class="box">
 					<img src="../images/foodimages/meal15.jpg">
 					<h3>Egusi Soup $ Akpu</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
@@ -58,31 +50,24 @@
 					<h3>Rice and Fried Chicken</h3>
 					<p>Lorem ipsum dolor sit amet, </p>
 				</div>
-			</div>
 		</section>
-		<section class="box1">
-			<div>
-				<h2 align="center"><a href="../pages/signin.html" style="color: #e8491d; text-decoration: none;">More food here</a></h2>
-			</div>
+		<section class="more-food-container">
+			<h2><a href="../pages/signin.html">More food here</a></h2>
 		</section>
 		<footer>
 			<p>book-A-meal Copyright &copy; 2018</p>
-
 			<nav>
-				<ul>
-						
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href=""><i class="fa fa-twitter"></i></a></li>
-						<li><a href=""><i class="fa fa-instagram"></i></a></li>
-						<li><a href=""></a></li>
-						
-					</ul>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+
+						<a href=""><i class="fa fa-twitter"></i></a>
+
+						<a href=""><i class="fa fa-instagram"></i>
+						</a>
+
+						<a href=""></a>
+
 			</nav>
 		</footer>
-
-
-		<!-- <script type="text/javascript" src="../js/modal.js"></script> -->
-	</body>
+	</div>
+</body>
 </html>
-
-

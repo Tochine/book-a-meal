@@ -1,86 +1,62 @@
 <!DOCTYPE html>
 
-<html lang="en">
-	<header>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="author" content="TF Adams">
-
-		<title>book-A-meal || Register</title>
-
-		<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/main.css">
-		<link rel="stylesheet" type="text/css" href="../css/modal.css">
-		<link rel="stylesheet" type="text/css" href="../css/register.css"> 
-	</header>
-
-	<body class="body">
-		<header>
-			<div class="container">
-				<div id="appName">
-					<h2 style="font-family: Gamja Flower; font-size: 30px;">book-<span style="color: red; font-size: 35px;">A</span>-meal</h2>
-				</div>
-				<nav>
-					<ul>
-						
-						<li><a href="../pages/index.html">Home</a></li>
-						<li><a href="#">Register</a></li>
-						<li><a href="../pages/signin.html">Sign In</a></li>
-						
-					</ul>
-				</nav>
-			</div>
+<html>
+  <head>
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta name="author" content="TF Adams">
+	  <title>book-A-meal || Welcome Page</title>
+	  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+	  <link rel="stylesheet" type="text/css" href="../css/register.css">
+  </head>
+<body>
+  <div class="wrapper">
+     <header>
+        <div id="appName">
+		  <h2 style="font-family: Gamja Flower; font-size: 30px;">book-<span style="color: red; font-size: 35px;">A</span>-meal</h2>
+		</div>
+		<nav>
+		  <ul>	
+		    <li><a href="../pages/index.html">Home</a></li>
+			<li><a href="../pages/foodmenu.html">Menu</a></li>
+			<li><a href="../pages/signin.html">Sign In</a></li>
+		  </ul>
+		</nav>
 		</header>
+		<section class="form-wrapper">
+		  <div class="form-container">
+		  <h1 style="color: #e8491d;">Sign Up</h1>
+		  <form>
+      	    <label for="email"><b>First tName</b></label>
+			<input type="text" placeholder="Enter First Name" name="firstname" required>
 
-		<section class="boxes">
-			<div class="container2">
-				<h1 style="color: #e8491d;">Sign Up</h1>
-      			<p align="center">Please fill in this form to create an account.</p>
+			<label for="email"><b>Last tName</b></label>
+			<input type="text" placeholder="Enter Last Name" name="lastname" required>
 
-      			<hr>
-				    <label for="email"><b>First tName</b></label>
-				    <input type="text" placeholder="Enter First Name" name="firstname" required>
+			<label for="email"><b>Email</b></label>
+      		<input type="text" placeholder="Enter Email" name="email" required>
 
-				    <label for="email"><b>Last tName</b></label>
-				    <input type="text" placeholder="Enter Last Name" name="lastname" required>
+      		<label for="psw"><b>Password</b></label>
+      		<input type="password" placeholder="Enter Password" name="psw" required>
 
-				    <label for="email"><b>Email</b></label>
-      				<input type="text" placeholder="Enter Email" name="email" required>
-
-      				<label for="psw"><b>Password</b></label>
-      				<input type="password" placeholder="Enter Password" name="psw" required>
-
-      				<label for="psw-repeat"><b>Repeat Password</b></label>
-      				<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
-      				<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-      				<div class="register-footer" align="center">
-      					<button style="background-color: #4CAF50;"><a style="text-decoration: none; color: #fff; font-size: 16px;" href="../pages/admin.html">Sign Up</a></button>
-      				</div>
-			</div>
+      		<label for="psw-repeat"><b>Repeat Password</b></label>
+      		<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      	  </form>
+      		<p>A member? Login <a href="../pages/signin.html">here.</a></p>
+      		<div class="">
+      		<button><a " href="../pages/admin.html">Register</a></button>
+      	  </div>
 		</section>
-		
 		<footer>
 			<p>book-A-meal Copyright &copy; 2018</p>
-
 			<nav>
-				<ul>
-						
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href=""><i class="fa fa-twitter"></i></a></li>
-						<li><a href=""><i class="fa fa-instagram"></i></a></li>
-						<li><a href=""></a></li>
-						
-					</ul>
+			  <a href="#"><i class="fa fa-facebook"></i></a>
+			  <a href=""><i class="fa fa-twitter"></i></a>
+			  <a href=""><i class="fa fa-instagram"></i></a>
 			</nav>
 		</footer>
-
-
-		<!-- <script type="text/javascript" src="../js/modal.js"></script> -->
-	</body>
+	</div>
+</body>
 </html>
-
-

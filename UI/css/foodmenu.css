@@ -1,0 +1,30 @@
+
+
+.food-card {
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   width: 15%;
+   margin: 2em;
+}
+
+.food-card img{
+   width: 100%;
+}
+
+button{
+  width: 100%;
+  background-color: #e8491d;
+  padding: 0.5em;
+}
+
+button i {
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+ .food-card {
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   width: 50%;
+   margin: 2em;
+}
+}

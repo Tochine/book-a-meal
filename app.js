@@ -1,14 +1,16 @@
 
-//initializing express
+// initializing express
 import express from 'express';
-//initializing bodyparser for extraction of request
+// initializing bodyparser for extraction of request
 import bodyParser from 'body-parser';
+import routes from './server/route';
 
-//declaring your app to use express
+
+// declaring your app to use express
 const app = express();
-//decalring express router
+// decalring express router
 const router = express.Router();
-//initializing my port
+// initializing my port
 const port = process.env.PORT || 8000;
 
 app.use(bodyParser.json());
@@ -20,12 +22,12 @@ router.use((req, res, next) => {
 });
 
 
-//declaring my route path
-require('./server/route')(router);
+// declaring my route path
+(routes)(router);
 
-// app.use(router);
+
 app.use('/api/v1', router);
-//listen to the port
+
 
 app.listen(port, () => {
 	console.log(`Connect to port ${port}`);

@@ -2,14 +2,12 @@
 
 import mealController from '../controller/meal';
 import orderController from '../controller/order';
-
-
-module.exports = (app) => {
-	app.get('/', (req, res) => res.status(200).send({
 import menuController from '../controller/menu';
 
 
-export default (app) => {
+
+
+module.exports = (app) => {
 	app.get('/api', (req, res) => res.status(200).send({
 		message: 'Welcome to book-a-meal Api',
 	}));

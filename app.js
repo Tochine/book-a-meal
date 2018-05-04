@@ -20,13 +20,13 @@ router.use((req, res, next) => {
 });
 
 
-//declaring my route path
+// declaring my route path
 require('./server/route')(router);
 
-// app.use(router);
-app.use('/api/v1', router);
-//listen to the port
 
+app.use('/api/v1', router);
+
+// listen to the port
 app.listen(port, () => {
 	console.log(`Connect to port ${port}`);
 });

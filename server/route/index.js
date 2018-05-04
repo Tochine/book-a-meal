@@ -1,6 +1,7 @@
 
 
 import mealController from '../controller/meal';
+import menuController from '../controller/menu';
 
 
 export default (app) => {
@@ -13,4 +14,6 @@ export default (app) => {
 	app.post('/meals', mealController.createMeal);
 	app.put('/meals/:mealId', mealController.updateMeal);
 	app.delete('/meals/:mealId', mealController.deleteMeal);
+
+	app.get('/menu', menuController.getMenu);
 } 

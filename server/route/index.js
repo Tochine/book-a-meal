@@ -1,6 +1,7 @@
 
 
 import mealController from '../controller/meal';
+import orderController from '../controller/order';
 
 
 module.exports = (app) => {
@@ -13,4 +14,5 @@ module.exports = (app) => {
 	app.post('/meals', mealController.createMeal);
 	app.put('/meals/:mealId', mealController.updateMeal);
 	app.delete('/meals/:mealId', mealController.deleteMeal);
+	app.get('/orders', orderController.getOrder);
 } 

@@ -17,3 +17,15 @@ describe ('/GET Orders', () => {
   });
 });
 });
+describe ('/POST Orders', () => {
+	it('it should return successful', (done) => {
+	  chai.request(server)
+			.get(`${BASE_URL}/orders`)
+			.send(order)
+			.end((err, res) => {
+				expect(res).to.have.status(202);
+				expect(res.body.message).to.equal('Successful');
+				done();
+			});
+	});
+});

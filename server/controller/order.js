@@ -21,5 +21,4 @@ class Orders {
 
  } 
 
-// const order = new Orders();
 export default Orders;

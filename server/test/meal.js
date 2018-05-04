@@ -14,6 +14,6 @@ describe ('/GET Meals', () => {
 				expect(res).to.have.status(200);
 				expect(res.body.message).to.equal('List of all meals');
 				done();
-			});
+		});
 	});
 });

@@ -14,6 +14,13 @@ class Menu {
      menu.push(menuSetup); 
      return res.status(200).json({
      	message: 'Menu Available'
+     	message: 'Menu Saved'
+     });
+    }
+    static getMenu(req, res){
+     return res.status(200).json({
+       menu,
+       message: 'Todays Menu',
      });
     }
 }

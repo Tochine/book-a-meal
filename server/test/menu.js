@@ -16,4 +16,14 @@ describe ('/GET Menu', () => {
 				done();
 			});
 	});
+describe ('/POST Menu', () => {
+  it('it should add menu', (done) => {
+  chai.request(server)
+  .post('/api/v1/menu')
+  .end((err, res) => {
+  expect(res).to.have.status(200);
+  expect(res.body.message).to.equal('Menu Saved');
+  done();
+  });
+ });
 });

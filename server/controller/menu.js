@@ -1,3 +1,4 @@
+
 import menu from '../model/menu';
 
 class Menu {

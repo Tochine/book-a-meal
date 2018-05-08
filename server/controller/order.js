@@ -18,7 +18,8 @@ class Orders {
       message: 'Successful',
     });
   }
-
- } 
-
+ 
+}
 export default Orders;
+
+
